@@ -17,4 +17,4 @@ const isDivisible = (n, x, y) => {
   }
 };
 
-console.log(isDivisible(26, 5, 1));
+console.log(isDivisible(40, 5, 1));
