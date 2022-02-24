@@ -12,4 +12,4 @@ const reverseWords = (str) => {
   return str.split(" ").reverse().join(" ");
 };
 
-console.log("happy gilmore baby");
+console.log(reverseWords("happy gilmore baby"));
