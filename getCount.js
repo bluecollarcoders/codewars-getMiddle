@@ -23,3 +23,10 @@ const getCount = (str) => {
 
   return vowelsCount;
 };
+
+// regex example with match method
+
+const getTotal = (str) => {
+  var vowelCollect = (str.match(/[aeiou]/gi) || []).length;
+  return vowelCollect;
+};
